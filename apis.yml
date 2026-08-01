@@ -1,8 +1,31 @@
 aid: perfios
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/perfios.png
 name: Perfios
-description: 'Perfios is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Perfios is a Bangalore, India-headquartered financial technology (SaaS)
+  company providing an AI-driven operating system for banks, NBFCs, fintechs,
+  and insurers, serving over 1,000 financial institutions globally. Its platform
+  spans four product families: Perfios Analyse (bank statement, ITR, GST,
+  payslip, credit-card and financial-statement analysers), Perfios Verify
+  (KYC/KYB, video KYC, liveness detection, OCR, digital signature and onboarding
+  via OneSDK), Perfios Lens (portfolio monitoring, PFM, credit assessment
+  memos, due diligence), and Perfios Protect (document tamper detection,
+  deepfake detection, and insurance fraud detection). Perfios also runs a
+  digital public infrastructure (DPI) stack for Account Aggregator FIU/FIP roles.
+  Its data-aggregation, decisioning, and verification capabilities are delivered
+  to partners programmatically; public developer documentation is gated behind
+  partner access. Surfaced as a portfolio company of Bessemer Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/perfios/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +35,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Financial Services
+- KYC
+- Onboarding
+- Credit Decisioning
+- Bank Statement Analysis
+- Fraud Detection
+- Account Aggregator
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +56,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.perfios.com/
+- type: About
+  url: https://perfios.ai/about-us/
+- type: Blog
+  url: https://perfios.ai/resources/blogs/
+- type: Support
+  url: https://perfios.ai/contact-us/
+- type: PrivacyPolicy
+  url: https://perfios.ai/privacy-policy/
+- type: TermsOfService
+  url: https://perfios.ai/terms-of-use/
+- type: GitHubOrganization
+  url: https://github.com/perfios
+- type: TrustCenter
+  url: security/perfios-trust-center.yml
+- type: Compliance
+  url: https://perfios.ai/perfios-trust-center/
+- type: DomainSecurity
+  url: security/perfios-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

@@ -1,0 +1,33 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of Perfios hosts
+notes: >-
+  All Perfios hosts sit behind Cloudflare bot management and return HTTP 403 to
+  automated requests, so no /.well-known/ discovery documents could be
+  retrieved. Absence of retrievable documents is recorded as expected data, not
+  fabricated. No pointer is wired since no document returned 200.
+hosts:
+- host: https://api.perfios.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403
+- host: https://www.perfios.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403
