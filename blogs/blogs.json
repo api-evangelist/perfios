@@ -6,18 +6,16 @@
       "feed_url": "https://perfios.ai/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed",
-      "error": "fetch_failed: TimeoutError"
+      "method": "feed"
     },
     {
       "source": "https://perfios.ai/about-us/",
       "feed_url": "https://perfios.ai/feed/",
       "title": "",
       "saved": 0,
-      "method": "discovered",
-      "error": "fetch_failed: TimeoutError"
+      "method": "discovered"
     }
   ],
-  "post_count": 10,
-  "fetched": "2026-08-15T12:11:08Z"
+  "post_count": 14,
+  "fetched": "2026-08-22T20:20:02Z"
 }
