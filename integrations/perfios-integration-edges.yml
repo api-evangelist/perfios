@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/perfios/integrations
+- https://n8n.io/integrations/perfios/
+- https://composio.dev/toolkits/perfios
+- https://monid.ai/tools/perfios
+checked:
+- https://composio.dev/toolkits/perfios
+- https://monid.ai/tools/perfios
+- https://n8n.io/integrations/perfios/
+- https://zapier.com/apps/perfios/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
